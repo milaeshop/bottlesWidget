@@ -38,18 +38,18 @@ const bottle2 = $.parseHTML(`
    
       <div class="tagcont tag">
          <svg class="texture2" data-name="Layer 9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.31 78.67" width="37.31" height="78.67">
-            <path d="M0 39.31s17.03 16.65 20.54 39.37c2.16 -21.24 16.77 -39.31 16.77 -39.31S23.49 22.73 20.65 0.01C17.99 21.24 0 39.31 0 39.31" style="fill:{titleColor}"/>
+            <path d="M0 39.31s17.03 16.65 20.54 39.37c2.16 -21.24 16.77 -39.31 16.77 -39.31S23.49 22.73 20.65 0.01C17.99 21.24 0 39.31 0 39.31" style="fill:var(--titleColor)"/>
          </svg>
        
         
-         {goalTitle}
+         <span></span>
       </div>
 
    <svg class="triangleholder holder" viewBox="0 0 126.57 35.1">
       <defs>
          <linearGradient id="abottom" x1="-99.22" y1="15.9" x2="27.34" y2="15.9" gradientTransform="translate(99.22 1.65)" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="{HolderCol}"/>
-            <stop offset="1" stop-color="{HolderCol2}"/>
+            <stop offset="0" stop-color="var(--HolderCol)"/>
+            <stop offset="1" stop-color="var(--HolderCol2)"/>
          </linearGradient>
       </defs>
       <g data-name="Layer 2" style="fill:none;isolation:isolate">
@@ -112,8 +112,8 @@ const bottle1 = $.parseHTML(`
    <svg class="holder roundholder" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200.01 47.13">
       <defs>
          <linearGradient id="abot2" x1="-99.22" y1="21.92" x2="97.13" y2="21.92" gradientTransform="translate(99.22 1.65)" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="{HolderCol}"/>
-            <stop offset="1" stop-color="{HolderCol2}"/>
+            <stop offset="0" stop-color="var(--HolderCol)"/>
+            <stop offset="1" stop-color="var(--HolderCol2)"/>
          </linearGradient>
       </defs>
       <path d="m196.36,2.39C138.05,67.5,55.73,57.04,0,0c3.58,3.98,85.94,40.03,99.59,7.1,11.1,29.24,95.29-1.45,96.77-4.71Z" style="fill: url(#abot2);"/>
@@ -201,9 +201,9 @@ const bottle1 = $.parseHTML(`
    <div class="blurspot"></div>
    <div class="tagcont tag">
   <svg class="texture2" data-name="Layer 9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.31 78.67" width="37.31" height="78.67">
-            <path d="M0 39.31s17.03 16.65 20.54 39.37c2.16 -21.24 16.77 -39.31 16.77 -39.31S23.49 22.73 20.65 0.01C17.99 21.24 0 39.31 0 39.31" style="fill:{titleColor}"/>
+            <path d="M0 39.31s17.03 16.65 20.54 39.37c2.16 -21.24 16.77 -39.31 16.77 -39.31S23.49 22.73 20.65 0.01C17.99 21.24 0 39.31 0 39.31" style="fill:var(--titleColor)"/>
          </svg>
-{goalTitle}</div>
+         <span></span></div>
    <svg class="top tag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.7 306.1" width="240.7" height="306.1">
       <path d="M218.67 104.06c-2.66 12.45-38.27 15.4-79.54 6.58s-72.56-26.07-69.9-38.52" style="fill:none;stroke:#332224;stroke-miterlimit:10;stroke-width:5px"/>
    </svg>
@@ -228,8 +228,8 @@ const bottle3 = $.parseHTML(`
 <svg class="srystalforstand" viewBox="0 0 126.57 35.1">
       <defs>
          <linearGradient id="abottom" x1="-99.22" y1="15.9" x2="27.34" y2="15.9" gradientTransform="translate(99.22 1.65)" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="{HolderCol}"/>
-            <stop offset="1" stop-color="{HolderCol2}"/>
+            <stop offset="0" stop-color="var(--HolderCol)"/>
+            <stop offset="1" stop-color="var(--HolderCol2)"/>
          </linearGradient>
       </defs>
       <g data-name="Layer 2" style="fill:none;isolation:isolate;">
@@ -297,9 +297,9 @@ const bottle3 = $.parseHTML(`
 </div>
 `)
 
-let titleplate = $.parseHTML(`<div class="titleplate {titlePos}">
+let titleplate = $.parseHTML(`<div class="titleplate">
 <div class="roundback">
-  <span>{goalTitle}</span>
+  <span></span>
   <div class="textprog"></div>
 </div>
 <div class="linebot"></div>
@@ -436,7 +436,7 @@ let titleplate = $.parseHTML(`<div class="titleplate {titlePos}">
 </div>`);
 
 let flowerType = $.parseHTML(` <div class="container flowercont">
-         <svg class="wrapstem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290.08 340.2" width="290.08" height="340.2"><path d="M36.72 336.48s-51.38 -49.38 -25.92 -96.94c37.16 -69.44 325.72 -57.37 267.95 -174.79C220.97 -52.67 34.31 35.46 34.31 35.46" style="fill:none;stroke:{flowercol};stroke-linecap:round;stroke-linejoin:round;stroke-width:5px"/></svg>
+         <svg class="wrapstem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290.08 340.2" width="290.08" height="340.2"><path d="M36.72 336.48s-51.38 -49.38 -25.92 -96.94c37.16 -69.44 325.72 -57.37 267.95 -174.79C220.97 -52.67 34.31 35.46 34.31 35.46" style="fill:none;stroke:var(--flowercol);stroke-linecap:round;stroke-linejoin:round;stroke-width:5px"/></svg>
 <svg class="sphr"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295.96 399.33">
             <defs>
               <linearGradient id="aasd" x1="20.42" y1="380.3" x2="284.62" y2="380.3" gradientUnits="userSpaceOnUse">
@@ -452,8 +452,8 @@ let flowerType = $.parseHTML(` <div class="container flowercont">
                 <stop offset="1" stop-color="#6f463f"/>
               </linearGradient>
               <linearGradient id="casd" x1="20.42" y1="191.16" x2="284.64" y2="191.16" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="{wallscol}" stop-opacity="0.8"/>
-                <stop offset="1" stop-color="{wallscol}"/>
+                <stop offset="0" stop-color="var(--wallscol)" stop-opacity="0.8"/>
+                <stop offset="1" stop-color="var(--wallscol)"/>
               </linearGradient>
               <linearGradient id="dasd" x1="71.73" y1="58.55" x2="13" y2="-44.39" gradientTransform="rotate(-.29 13439.515 -22109.914)" gradientUnits="userSpaceOnUse">
                 <stop offset=".15" stop-color="#5c72ff" stop-opacity="0"/>
@@ -462,7 +462,7 @@ let flowerType = $.parseHTML(` <div class="container flowercont">
             </defs>
             <path d="M284.62 379.77c0 9.97-59.14 18.06-132.1 18.06s-132.1-8.09-132.1-18.06v-17c0 9.97 59.14 18.06 132.1 18.06s132.1-8.09 132.1-18.06v17Z" style="fill:url(#aasd);stroke:#774944;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px"/>
             <ellipse cx="152.52" cy="362.77" rx="132.1" ry="18.06" style="fill:url(#basd)"/>
-            <path d="M284.62 362.77s4.46 18.06-129.87 18.06-134.33-18.06-134.33-18.06V133.6c0-72.96 59.14-132.1 132.1-132.1s132.1 59.14 132.1 132.1v229.17Z" style="fill:url(#casd);fill-opacity:.6;stroke:{wallscol};stroke-miterlimit:10;stroke-width:3px"/>
+            <path d="M284.62 362.77s4.46 18.06-129.87 18.06-134.33-18.06-134.33-18.06V133.6c0-72.96 59.14-132.1 132.1-132.1s132.1 59.14 132.1 132.1v229.17Z" style="fill:url(#casd);fill-opacity:.6;stroke:var(--wallscol);stroke-miterlimit:10;stroke-width:3px"/>
             <path d="M37.77 84.05c1.14-6.86-2.95-11.95-5.16-14.15-.79-.78-1.97-.98-2.97-.5-2.8 1.36-8.32 4.87-9.46 11.73-1.05 6.35 1.91 13.92 3.89 18.08.77 1.62 2.92 1.98 4.17.69 3.22-3.3 8.47-9.51 9.53-15.85ZM1.9 55.2c-1.73.48-2.46 2.52-1.41 3.98 2.68 3.75 7.87 10.01 13.93 12.16 6.55 2.33 12.29-.8 14.84-2.6a2.6 2.6 0 0 0 1.01-2.84c-.85-3-3.33-9.04-9.88-11.37-6.06-2.15-14.04-.56-18.48.66Z" style="fill:var(--flowercol);filter: brightness(85%) saturate(160%);"/>
             <path d="M15.35 62.1c10.14-5.97 17.13-3.09 20.91 3.32s2.92 13.93-7.22 19.9c-7.53 4.44-20.15 3.24-26.14 2.33a2.843 2.843 0 0 1-2.25-3.81c2.1-5.68 7.17-17.3 14.7-21.74Z" style="fill:var(--flowercol);filter: brightness(120%);"/>
             <path d="M19.73 70.24c4.26-7.06 11.87-8.51 15.56-8.79 1.32-.1 2.54.64 3.07 1.85 1.48 3.39 3.75 10.8-.5 17.86-3.94 6.54-12.45 11.09-17.44 13.31-1.95.87-4.15-.46-4.3-2.59-.37-5.45-.32-15.11 3.62-21.64Z" style="fill:var(--flowercol)"/>
@@ -472,7 +472,7 @@ let flowerType = $.parseHTML(` <div class="container flowercont">
 
 
          <svg class="stem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.23 202.48" width="41.23" height="202.48"><path class="pathmove" d="M30.32 199.41C58.11 109.11 3.07 3.07 3.07 3.07" style="fill:none;stroke:#214e4f;stroke-linecap:round;stroke-linejoin:round;stroke-width:6.14px"/></svg>
- <svg class="stem stem2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.23 202.48" width="41.23" height="202.48"><path class="pathmove" d="M30.32 199.41C58.11 109.11 3.07 3.07 3.07 3.07" style="fill:none;stroke:{flowercol};stroke-linecap:round;stroke-linejoin:round;stroke-width:6.14px"/></svg>    
+ <svg class="stem stem2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.23 202.48" width="41.23" height="202.48"><path class="pathmove" d="M30.32 199.41C58.11 109.11 3.07 3.07 3.07 3.07" style="fill:none;stroke:var(--flowercol);stroke-linecap:round;stroke-linejoin:round;stroke-width:6.14px"/></svg>    
 <svg class="stempetals" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.95 106.18" width="63.95" height="106.18">
             <path class="sp sp7" d="M12.42 17.44c5.77 3.25 11.66 1.27 14.35 0 0.97 -0.45 1.53 -1.45 1.41 -2.49 -0.3 -2.96 -1.64 -9.04 -7.41 -12.29C12.97 -1.77 0 0.67 0 0.67s4.61 12.37 12.42 16.77Z" style="fill: #295f60;"/>
             <path class="sp sp3" d="m58.51 22.91 5.23 -0.44c0.46 -5.59 0.04 -10 0.04 -10s-16.56 4.52 -23.19 14.12c-4.89 7.09 -3.01 14.96 -1.69 18.59 0.47 1.31 1.7 2.15 3.06 2.13 3.87 -0.05 11.9 -1.06 16.8 -8.16 2.59 -3.74 3.92 -8.61 4.58 -13.17l-4.84 -3.06Z" style="fill: #295f60;"/>
@@ -512,5 +512,58 @@ let flowerType = $.parseHTML(` <div class="container flowercont">
             <path d="M246.17 71.63c.15 29.12-61.53 53.04-111.54 53.3-50.01.25-69.41-23.25-69.56-52.38s40.27-52.93 90.28-53.19c50.01-.25 90.67 23.15 90.81 52.27Z" style="fill:url(#dasd);opacity:.67"/>
           </svg>
           <svg class="wrapstem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 289.76 346.24" width="289.76" height="346.24">
-<path d="M39.64 342.53s-54.62 -55.42 -29.16 -102.99m275.07 -139.25c1.56 -10.36 -0.51 -22.1 -7.12 -35.53C220.65 -52.67 34 35.46 34 35.46" style="fill:none;stroke:{flowercol};stroke-linecap:round;stroke-linejoin:round;stroke-width:5px"/></svg>
+<path d="M39.64 342.53s-54.62 -55.42 -29.16 -102.99m275.07 -139.25c1.56 -10.36 -0.51 -22.1 -7.12 -35.53C220.65 -52.67 34 35.46 34 35.46" style="fill:none;stroke:var(--flowercol);stroke-linecap:round;stroke-linejoin:round;stroke-width:5px"/></svg>
       </div>`);
+
+
+      function flowergrow() {
+         if (goalRel >= 100) {
+           goalRel = 100;
+        }
+          
+         if (goalRel > 10) {
+          $(".container").addClass("stage1");
+          $(".stem2").css("opacity", (1 - goalRel / 100 * 3));
+           
+        }
+        if (goalRel > 20) {
+          $(".container").addClass("stage2");
+          $(".stem2").css("opacity", (1 - goalRel / 100 * 3));
+        }
+        if (goalRel > 30) {
+          $(".container").addClass("stage3");
+          $(".stem2").css("opacity", (1 - goalRel / 100  * 3));
+        }
+        if (goalRel > 40) {
+          $(".container").addClass("stage4");
+          $(".stem2").css("opacity", 0);
+          $(".sp1").css("opacity", "1");
+        }
+        if (goalRel > 50) {
+          $(".container").addClass("stage5");
+          $(".sp2").css("opacity", "1");
+        }
+        if (goalRel > 60) {
+          $(".container").addClass("stage6");
+          $(".sp3").css("opacity", "1");
+        }
+        if (goalRel > 70) {
+          $(".container").addClass("stage7");
+          $(".sp4").css("opacity", "1");
+        }
+        if (goalRel > 80) {
+          $(".container").addClass("stage8");
+          $(".sp5").css("opacity", "1");
+        }
+          if (goalRel > 90) {
+          $(".sp6").css("opacity", "1");
+        }
+          if (goalRel >= 100) {
+          $(".sp7").css("opacity", "1");
+        }
+        let pathOff = 1000 - (212 * goalRel / 100);
+           $(".pathmove").css("stroke-dashoffset", pathOff);
+           $(".flower1").css({"motion-offset": goalRel + "%",
+            "offset-distance": goalRel + "%"});
+        }
+        
