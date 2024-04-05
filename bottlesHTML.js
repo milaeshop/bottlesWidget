@@ -509,12 +509,32 @@ let flowerType = $.parseHTML(` <div class="container flowercont">
             <path class="sp sp7" d="M118.08 21.82c-13.61 3.11 -15.73 5.63 -18.34 21.82 -2.61 -16.19 -4.73 -18.71 -18.34 -21.82C95.01 18.71 97.13 16.19 99.74 0c2.61 16.19 4.73 18.71 18.34 21.82Z" style="fill: #e3d9ff;"/>
           </svg>
          <svg class="sphr" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295.96 396.33">
-            <path d="M246.17 71.63c.15 29.12-61.53 53.04-111.54 53.3-50.01.25-69.41-23.25-69.56-52.38s40.27-52.93 90.28-53.19c50.01-.25 90.67 23.15 90.81 52.27Z" style="fill:url(#dasd);opacity:.67"/>
+            <path d="M246.17 71.63c.15 29.12-61.53 53.04-111.54 53.3-50.01.25-69.41-23.25-69.56-52.38s40.27-52.93 90.28-53.19c50.01-.25 90.67 23.15 90.81 52.27Z" style="fill:url(#dasd);opacity:.65;mix-blend-mode: screen;"/>
           </svg>
           <svg class="wrapstem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 289.76 346.24" width="289.76" height="346.24">
 <path d="M39.64 342.53s-54.62 -55.42 -29.16 -102.99m275.07 -139.25c1.56 -10.36 -0.51 -22.1 -7.12 -35.53C220.65 -52.67 34 35.46 34 35.46" style="fill:none;stroke:var(--flowercol);stroke-linecap:round;stroke-linejoin:round;stroke-width:5px"/></svg>
       </div>`);
 
+      let textcont = $.parseHTML(`
+      <div class="titleplate">
+       <span class="title"></span>
+       <div class="titleText textprog"></div>
+     <div>
+     `)
+        
+           let textcontBorder = $.parseHTML(`
+      <div class="titleplate bord">
+      <div class="titleB"><span></span></div>
+           <div class="textprogplate">
+             <svg class="tophold" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.91 18.41" width="44.91" height="18.41"><path style="fill:none;stroke:{titleBackColor};stroke-miterlimit:10;stroke-width:2px" d="M44.91 1h-6.46l-16 16 -16 -16H0"/></svg>
+             <svg class="square" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.5 15.5" width="15.5" height="15.5"><path transform="rotate(-45 7.75 7.75)" style="fill:{titleBackColor}" d="M2.27 2.27h10.96v10.96H2.27z"/></svg>
+             <svg class="sqr"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.53 9.53" width="9.53" height="9.53"><path transform="rotate(-45 4.76 4.758)" style="fill:{titleBackColor}" d="M1.4 1.4h6.74v6.74H1.4z"/></svg>
+             <svg class="sql"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.53 9.53" width="9.53" height="9.53"><path transform="rotate(-45 4.76 4.758)" style="fill:{titleBackColor}" d="M1.4 1.4h6.74v6.74H1.4z"/></svg>
+             <svg class="sqb"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.53 9.53" width="9.53" height="9.53"><path transform="rotate(-45 4.76 4.758)" style="fill:{titleBackColor}" d="M1.4 1.4h6.74v6.74H1.4z"/></svg>
+             <span class="prog"><span>0</span></span>
+             <span class="goal"><span>1000</span></span>
+           </div> </div>
+     `)
 
       function flowergrow() {
          if (goalRel >= 100) {
