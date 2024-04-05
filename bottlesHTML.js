@@ -1,4 +1,4 @@
-const bottle2 = $.parseHTML(` <div class="container bottle2">
+const bottle2 = $.parseHTML(`  <div class="maincontout"><div class="container bottle2">
 	<svg class="back" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.7 306.1" width="240.7" height="306.1">
 		<g data-name="Layer 8">
 			<path class="tag" transform="rotate(-73.5 137.144 127.577)" style="fill:none;stroke:#332224;stroke-miterlimit:10;stroke-width:4px" d="M155.14 127.58a17.99 59.62 0 0 1-17.99 59.62 17.99 59.62 0 0 1-17.99-59.62 17.99 59.62 0 0 1 35.98 0z" data-name="Layer 8" />
@@ -100,8 +100,8 @@ const bottle2 = $.parseHTML(` <div class="container bottle2">
 			<path class="tag" d="M194.31 144.8c-2.82 9.53-30.7 9.67-62.27.32-31.57-9.35-54.87-24.66-52.05-34.19" style="fill:none;stroke:#332224;stroke-miterlimit:10;stroke-width:4px" />
 		</g>
 	</svg>
-</div>`) 
-const bottle1 = $.parseHTML(` <div class="container bottle1">
+</div></div>`) 
+const bottle1 = $.parseHTML(`  <div class="maincontout"><div class="container bottle1">
 	<svg class="holder roundholder" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200.01 47.13">
 		<defs>
 			<linearGradient id="abot2" x1="-99.22" y1="21.92" x2="97.13" y2="21.92" gradientTransform="translate(99.22 1.65)" gradientUnits="userSpaceOnUse">
@@ -201,7 +201,7 @@ const bottle1 = $.parseHTML(` <div class="container bottle1">
 	<svg class="top tag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.7 306.1" width="240.7" height="306.1">
 		<path d="M218.67 104.06c-2.66 12.45-38.27 15.4-79.54 6.58s-72.56-26.07-69.9-38.52" style="fill:none;stroke:#332224;stroke-miterlimit:10;stroke-width:5px" />
 	</svg>
-</div>`) 
+</div></div>`) 
 const bottle3 = $.parseHTML(` <div class="container bottle3">
 	<svg class="stand" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 179.91 91.79">
 		<defs>
