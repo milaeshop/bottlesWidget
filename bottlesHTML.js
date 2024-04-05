@@ -265,7 +265,7 @@ const bottle3 = $.parseHTML(` <div class="container bottle3">
 		<svg class="top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 254.07 253.84">
 			<defs>
 				<linearGradient id="aioio" x1="-21.73" y1="15.87" x2="-84.15" y2="-93.52" gradientTransform="rotate(-28.47 232.48 -273.727)" gradientUnits="userSpaceOnUse">
-					<stop offset=".15" />
+					<stop offset=".15" stop-color="#5c72ff" stop-opacity="0"/>
 					<stop offset="1" stop-color="#5c72ff" />
 				</linearGradient>
 				<linearGradient id="bioio" x1="-1152.35" y1="674.59" x2="-1152.35" y2="542.66" gradientTransform="rotate(16.79 1277.473 3270.151)scale(.72 1)" xlink:href="#a" />
@@ -528,7 +528,7 @@ let flowerType = $.parseHTML(` <div class="container flowercont">
 let textcont = $.parseHTML(` <div class="titleplate">
 	<span class="title"></span>
 	<div class="titleText textprog"></div>
-	<div> `) 
+	</div> `) 
    let textcontBorder = $.parseHTML(` <div class="titleplate bord">
 			<div class="titleB"><span></span></div>
 			<div class="textprogplate">
