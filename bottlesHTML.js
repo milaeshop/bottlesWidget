@@ -526,11 +526,11 @@ let flowerType = $.parseHTML(` <div class="container flowercont">
       <div class="titleplate bord">
       <div class="titleB"><span></span></div>
            <div class="textprogplate">
-             <svg class="tophold" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.91 18.41" width="44.91" height="18.41"><path style="fill:none;stroke:{titleBackColor};stroke-miterlimit:10;stroke-width:2px" d="M44.91 1h-6.46l-16 16 -16 -16H0"/></svg>
-             <svg class="square" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.5 15.5" width="15.5" height="15.5"><path transform="rotate(-45 7.75 7.75)" style="fill:{titleBackColor}" d="M2.27 2.27h10.96v10.96H2.27z"/></svg>
-             <svg class="sqr"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.53 9.53" width="9.53" height="9.53"><path transform="rotate(-45 4.76 4.758)" style="fill:{titleBackColor}" d="M1.4 1.4h6.74v6.74H1.4z"/></svg>
-             <svg class="sql"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.53 9.53" width="9.53" height="9.53"><path transform="rotate(-45 4.76 4.758)" style="fill:{titleBackColor}" d="M1.4 1.4h6.74v6.74H1.4z"/></svg>
-             <svg class="sqb"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.53 9.53" width="9.53" height="9.53"><path transform="rotate(-45 4.76 4.758)" style="fill:{titleBackColor}" d="M1.4 1.4h6.74v6.74H1.4z"/></svg>
+             <svg class="tophold" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.91 18.41" width="44.91" height="18.41"><path style="fill:none;stroke:var(--titleBackColor);stroke-miterlimit:10;stroke-width:2px" d="M44.91 1h-6.46l-16 16 -16 -16H0"/></svg>
+             <svg class="square" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.5 15.5" width="15.5" height="15.5"><path transform="rotate(-45 7.75 7.75)" style="fill:var(--titleBackColor)" d="M2.27 2.27h10.96v10.96H2.27z"/></svg>
+             <svg class="sqr"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.53 9.53" width="9.53" height="9.53"><path transform="rotate(-45 4.76 4.758)" style="fill:var(--titleBackColor)" d="M1.4 1.4h6.74v6.74H1.4z"/></svg>
+             <svg class="sql"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.53 9.53" width="9.53" height="9.53"><path transform="rotate(-45 4.76 4.758)" style="fill:var(--titleBackColor)" d="M1.4 1.4h6.74v6.74H1.4z"/></svg>
+             <svg class="sqb"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.53 9.53" width="9.53" height="9.53"><path transform="rotate(-45 4.76 4.758)" style="fill:var(--titleBackColor)" d="M1.4 1.4h6.74v6.74H1.4z"/></svg>
              <span class="prog"><span>0</span></span>
              <span class="goal"><span>1000</span></span>
            </div> </div>
