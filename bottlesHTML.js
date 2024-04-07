@@ -518,8 +518,8 @@ let flowerType = $.parseHTML(` <div class="container flowercont">
 		<path class="sp sp6" d="M347.6 205.65c-9.01 2.06 -10.41 3.72 -12.14 14.44 -1.73 -10.72 -3.13 -12.39 -12.14 -14.44 9.01 -2.06 10.41 -3.72 12.14 -14.44 1.73 10.72 3.13 12.39 12.14 14.44Z" style="fill: #e3d9ff;" />
 		<path class="sp sp7" d="M118.08 21.82c-13.61 3.11 -15.73 5.63 -18.34 21.82 -2.61 -16.19 -4.73 -18.71 -18.34 -21.82C95.01 18.71 97.13 16.19 99.74 0c2.61 16.19 4.73 18.71 18.34 21.82Z" style="fill: #e3d9ff;" />
 	</svg>
-	<svg class="sphr" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295.96 396.33">
-		<path d="M246.17 71.63c.15 29.12-61.53 53.04-111.54 53.3-50.01.25-69.41-23.25-69.56-52.38s40.27-52.93 90.28-53.19c50.01-.25 90.67 23.15 90.81 52.27Z" style="fill:url(#dasd);opacity:.65;mix-blend-mode: screen;" />
+	<svg class="sphr sphrlight" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295.96 396.33">
+		<path d="M246.17 71.63c.15 29.12-61.53 53.04-111.54 53.3-50.01.25-69.41-23.25-69.56-52.38s40.27-52.93 90.28-53.19c50.01-.25 90.67 23.15 90.81 52.27Z" style="fill:url(#dasd);" />
 	</svg>
 	<svg class="wrapstem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 289.76 346.24" width="289.76" height="346.24">
 		<path d="M39.64 342.53s-54.62 -55.42 -29.16 -102.99m275.07 -139.25c1.56 -10.36 -0.51 -22.1 -7.12 -35.53C220.65 -52.67 34 35.46 34 35.46" style="fill:none;stroke:var(--flowercol);stroke-linecap:round;stroke-linejoin:round;stroke-width:5px" />
